@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fundo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/aleatorio"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:id="@+id/Perfil"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="Página 4"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="70px" />
+
+        <TextView
+            android:id="@+id/msg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:text="Selecione uma cor de fundo:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="55px" />
+
+        <Button
+            android:id="@+id/btn_azul"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:hapticFeedbackEnabled="false"
+            android:backgroundTint="@color/blue"
+            android:text="Azul"
+            android:textColor="@color/white"
+            android:textSize="45px" />
+
+
+        <Button
+            android:id="@+id/btn_laranja"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:hapticFeedbackEnabled="false"
+            android:text="Laranja"
+            android:backgroundTint="@color/orange"
+            android:textColor="@color/white"
+            android:textSize="45px" />
+
+        <Button
+            android:id="@+id/btn_vermelho"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:hapticFeedbackEnabled="false"
+            android:text="Vermelho"
+            android:backgroundTint="@color/red"
+            android:textColor="@color/white"
+            android:textSize="45px" />
+
+        <Button
+            android:id="@+id/btn_aleatorio"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:hapticFeedbackEnabled="false"
+            android:text="Aleatório"
+            android:textColor="@color/white"
+            android:textSize="45px" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/anterior"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_marginLeft="170dp"
+                android:layout_marginBottom="10dp"
+                android:drawableRight="@drawable/baseline_arrow_circle_left"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/proximo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:drawableRight="@drawable/baseline_arrow_circle_right"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
